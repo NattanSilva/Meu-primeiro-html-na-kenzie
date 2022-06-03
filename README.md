@@ -9,5 +9,5 @@
 ##
 
 <div align="center">
-  <h3>Para acessar a página basta clicar neste <a href="https://github.com/NattanSilva">link</a> !</h3>
+  <h3>Para acessar a página basta clicar neste <a href="https://nattansilva.github.io/Meu-primeiro-html-na-kenzie/" target="_blank">link</a> !</h3>
 </div>
