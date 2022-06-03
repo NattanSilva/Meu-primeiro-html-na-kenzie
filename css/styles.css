@@ -1,0 +1,130 @@
+:root {
+  font-size: 62.5%;
+  --vermelho: #B20600;
+  --laranja: #FF5F00;
+  --branco: #EEEEEE;
+  --azul: #00092C;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+html {
+  background: linear-gradient(to right, var(--vermelho), var(--laranja));
+}
+
+/* Header */
+header {
+  color: var(--branco);
+  font-size: 2.6rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* aside */
+aside {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid var(--branco);
+  border-bottom: none;
+  background-color: var(--azul);
+}
+
+aside .user-pic img{
+  width: 240px; 
+  height:240px;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+aside .user-contact h4 {
+  color: var(--branco);
+  font-size: 1.6rem;
+  margin: 2rem 0 2rem 0;
+  text-align: center;
+}
+
+aside .user-contact ul {
+  list-style: none;
+  color: var(--branco);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+aside .user-contact ul li a {
+  text-decoration: none;
+  color: var(--branco);
+  font-size: 1.6rem;
+}
+
+/* main */
+main section {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  border: 1px solid var(--branco);
+  border-top: none;
+  border-bottom: none;
+  background-color: var(--azul);
+  color: var(--branco);
+}
+
+main section h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+main section p {
+  font-size: 1.6rem;
+  margin: 0 2rem 0 2rem;
+}
+
+/* Footer */
+footer {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--azul);
+  border: 1px solid var(--branco);
+  border-top: none;
+}
+
+footer h4 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--branco);
+}
+
+footer ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer ol li a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--branco);
+}
